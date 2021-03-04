@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(245, 245, 248);
+}
+
+.navbar {
+  background-color: rgb(245, 245, 248);
+}
+
+.has-white-bg {
+  background: rgb(255, 255, 255);
+}
+
+.has-lb-bg {
+  background: rgb(248, 251, 254);
+}
+
+.custom-list {
+  list-style-image: url("media/point.png");
+}
+
+.custom-list li {
+  margin-top: -5px;
+}
+
+.custom-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.documentation-section {
+  background: rgb(245, 245, 248);
+}
+
+.button.is-text {
+  text-decoration: none;
+  outline: 0;
+}
+
+.footer {
+  background: rgb(245, 245, 248);
+  background-image: url("media/FOOTER.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer a {
+  color: rgb(255, 255, 255);
+}

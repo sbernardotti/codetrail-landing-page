@@ -1,0 +1,20 @@
+{
+  "name": "codetrail-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/main.scss css/main.css --output-style compressed",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "node-sass": "^5.0.0"
+  }
+}
